@@ -1,0 +1,279 @@
+* {
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+header {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'THE AMAZING SPIDER-MAN', 'Roboto';
+    border-bottom: 2px solid gray;
+}
+
+.logo {
+    height: 144px;
+    border-radius: 16px;
+    margin-left: 16px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.decoration__menu {
+    height: 144px;
+    opacity: 70%;
+
+
+}
+
+ol {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-right: 16px;
+}
+
+.background__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu__nav ol {
+    list-style-type: none;
+
+}
+
+.menu__nav li {
+    border: solid 2px black;
+    border-radius: 24px;
+    padding: 16px;
+
+}
+
+.menu__nav a {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+
+    padding: 16px 16px 16px 32px;
+
+}
+
+.menu__nav li:hover {
+    transform: scale(1.25);
+    transition: 2s;
+    border: solid 2px rgb(6, 47, 134);
+    background-image: url(/img/background__botton.png);
+    background-position: center;
+    background-size: cover;
+
+
+
+}
+
+.menu__nav a:hover {
+    font-size: 32px;
+    color: rgb(134, 38, 39);
+    text-decoration: none;
+
+}
+
+.decoration__menu:hover {
+    height: 144px;
+    opacity: 100%;
+    transform: scale(1.10);
+    transition: 1s;
+
+
+}
+
+.banner__spider_man {
+    margin-top: 16px;
+    height: 534px;
+    width: 100%;
+    background-image: url(/img/banner__spider_man.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.cards__spider {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.container___films {
+    gap: 40px;
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    background-image: url(/img/background__sectionfilm64.png);
+}
+
+
+.cardfilm__1,
+.cardfilm__2,
+.cardfilm__3,
+.cardfilm__4,
+.cardfilm__5,
+.cardfilm__6 {
+
+    Width: 308px;
+    Height: 412px;
+    border-radius: 32px;
+    box-shadow: 8px 4px 4px black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+
+}
+
+
+
+.cardfilm__1:hover {
+    transform: scale(1.10);
+    transition: 2s;
+    text-decoration: none;
+}
+
+.cardfilm__2:hover {
+    transform: scale(1.10);
+    transition: 2s;
+    text-decoration: none;
+}
+
+.cardfilm__3:hover {
+    transform: scale(1.10);
+    transition: 2s;
+    text-decoration: none;
+}
+
+.cardfilm__4:hover {
+    transform: scale(1.10);
+    transition: 2s;
+    text-decoration: none;
+}
+
+.cardfilm__5:hover {
+    transform: scale(1.10);
+    transition: 2s;
+    text-decoration: none;
+}
+
+.cardfilm__6:hover {
+    transform: scale(1.10);
+    transition: 2s;
+    text-decoration: none;
+}
+
+.button__card {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+button {
+    border-radius: 5%;
+    background-color: rgba(51, 187, 105, 1);
+    Width: 136px;
+    Height: 34px;
+}
+
+
+button a {
+    text-decoration: none;
+    font-size: 16px;
+    padding: 12px 28px 12px 28px;
+
+}
+
+.container__backgroundfilm1,
+.container__backgroundfilm2,
+.container__backgroundfilm3,
+.container__backgroundfilm4,
+.container__backgroundfilm5,
+.container__backgroundfilm6 {
+    Width: 308px;
+    Height: 172px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 32px;
+}
+
+.container__backgroundfilm1 {
+    background-image: url(/img/backgroundfilm1.jpg);
+}
+
+.container__backgroundfilm2 {
+    background-image: url(/img/backgroundfilm2.jpg);
+}
+
+.container__backgroundfilm3 {
+    background-image: url(/img/backgroundfilm3.jpg);
+}
+
+.container__backgroundfilm4 {
+    background-image: url(/img/backgroundfilm1.jpg);
+}
+
+.container__backgroundfilm5 {
+    background-image: url(/img/backgroundfilm2.jpg);
+}
+
+.container__backgroundfilm6 {
+    background-image: url(/img/backgroundfilm3.jpg);
+}
+
+footer {
+    background-color: rgb(168, 172, 186);
+}
+
+.dev__group {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer img {
+    gap: 20px;
+    border-radius: 4px;
+    width: 80px;
+
+}
+
+.name__student {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.links {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.data__dev {
+    font-family: 'THE AMAZING SPIDER-MAN', 'Roboto';
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
