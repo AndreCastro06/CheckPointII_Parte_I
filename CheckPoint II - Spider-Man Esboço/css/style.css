@@ -65,7 +65,7 @@ ol {
     padding: 15px;
     align-items: center;
     justify-items: center;
-    transition: all .8s;
+    transition: all 1.2s;
 
 }
 
@@ -136,12 +136,14 @@ ol {
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-repeat: no-repeat;
+    
     background-position: center;
     background-size: cover;
     background-image: url(/img/background__sectionfilm64.png);
-    padding-bottom: 30px;
+    padding-bottom: 220px;
 }
+
+
 
 
 .cardfilm__1,
@@ -149,17 +151,22 @@ ol {
 .cardfilm__3,
 .cardfilm__4,
 .cardfilm__5,
-.cardfilm__6 {
-
+.cardfilm__6,
+.cardfilm__7,
+.cardfilm__8
+{
     Width: 308px;
     Height: 412px;
     border-radius: 32px;
     box-shadow:rgb(111,130,150) 0px 20px 30px -10px;
     border-bottom: 1px solid;
     border-right: 1px solid;
+    min-width: 300px;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    scrollbar-color: red;
 }
-
-
 
 .cardfilm__1:hover {
     transform: scale(1.10);
@@ -197,6 +204,21 @@ ol {
     text-decoration: none;
 }
 
+
+.cardfilm__7:hover {
+    transform: scale(1.10);
+    transition: 2s;
+    text-decoration: none;
+}
+
+.cardfilm__8:hover {
+    transform: scale(1.10);
+    transition: 2s;
+    text-decoration: none;
+}
+
+
+
 .button__card {
     color: black;
     display: flex;
@@ -225,16 +247,18 @@ button a {
 .container__backgroundfilm3,
 .container__backgroundfilm4,
 .container__backgroundfilm5,
-.container__backgroundfilm6 {
+.container__backgroundfilm6,
+.container__backgroundfilm7,
+.container__backgroundfilm8 {
     Width: 308px;
-    Height: 172px;
-    background-position: center;
-    background-size: cover;
+    Height: 230px;
+   background-position: center;
+    background-size: 308px;
     background-repeat: no-repeat;
     border-radius: 32px;
 }
 
-.container__backgroundfilm1 {
+    .container__backgroundfilm1{
     background-image: url(/img/backgroundfilm1.jpg);
 }
 
@@ -247,19 +271,29 @@ button a {
 }
 
 .container__backgroundfilm4 {
-    background-image: url(/img/backgroundfilm1.jpg);
+    background-image: url(/img/backgroundfilm4.jpg);
 }
 
 .container__backgroundfilm5 {
-    background-image: url(/img/backgroundfilm2.jpg);
+    background-image: url(/img/backgroundfilm5.jpg);
 }
 
 .container__backgroundfilm6 {
-    background-image: url(/img/backgroundfilm3.jpg);
+    background-image: url(/img/backgroundfilm6.jpg);
 }
 
+.container__backgroundfilm7 {
+    background-image: url(/img/backgroundfilm7.jpg);
+}
+
+.container__backgroundfilm8 {
+    background-image: url(/img/backgroundfilm8.jpg);
+}
+
+
+
+
 footer {
-    margin-top: 24px;
    
 }
 
