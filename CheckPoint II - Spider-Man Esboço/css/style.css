@@ -6,6 +6,15 @@
 
 }
 
+html{
+scroll-behavior: smooth;
+}
+
+body{
+
+    background-color:rgb(229,229,229);
+}
+
 header {
     height: 20%;
     display: flex;
@@ -13,11 +22,12 @@ header {
     justify-content: space-between;
     font-family: 'THE AMAZING SPIDER-MAN', 'Roboto';
     border-bottom: 2px solid gray;
+    background-image: url(/img/background__menu.png);
 }
 
 .logo {
     height: 144px;
-    border-radius: 16px;
+    border-radius: 50%;
     margin-left: 16px;
     margin-bottom: 8px;
     margin-top: 8px;
@@ -93,7 +103,7 @@ ol {
 }
 
 .banner__spider_man {
-    margin-top: 16px;
+    
     height: 534px;
     width: 100%;
     background-image: url(/img/banner__spider_man.jpg);
@@ -113,7 +123,7 @@ ol {
 
 .container___films {
     gap: 40px;
-    margin-top: 32px;
+    margin-top: 16px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -121,8 +131,8 @@ ol {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
     background-image: url(/img/background__sectionfilm64.png);
+    padding-bottom: 30px;
 }
 
 
@@ -242,7 +252,8 @@ button a {
 }
 
 footer {
-    background-color: rgb(168, 172, 186);
+    margin-top: 24px;
+   
 }
 
 .dev__group {
