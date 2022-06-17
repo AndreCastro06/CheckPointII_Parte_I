@@ -1,5 +1,5 @@
 * {
-    box-sizing: 0;
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 
@@ -287,4 +287,18 @@ footer img {
     font-size: 16px;
     text-align: center;
     font-weight: bold;
+}
+
+.name__student{
+ padding: 8px;
+}
+
+.head__spider{
+    transition: all 1.2s;
+
+}
+.head__spider:hover{
+-webkit-transform: rotateZ(360deg);
+transform: rotatez(360deg);
+
 }
